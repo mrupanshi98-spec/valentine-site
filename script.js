@@ -1,8 +1,9 @@
+document.addEventListener("DOMContentLoaded", () => {
 // Elements
-const envelope = document.getElementById("envelope-container");
+const envelope = document.getElementById("envelope");
 const letter = document.getElementById("letter-container");
 const noBtn = document.querySelector(".no-btn");
-const yesBtn = document.querySelector([".yes-btn"]);
+const yesBtn = document.querySelector(".yes-btn");
 
 const title= document.getElementById("letter-title");
 const catImg = document.getElementById("letter-cat");
@@ -46,12 +47,13 @@ noBtn.addEventListener("click", () => {
 yesBtn.addEventListener("click", () => {
     title.textContent = "I knew you would say yes!";
 
-    catImg.src = "cat_dance.gif";
+    catImg.src = "Images/cat_dance.gif";
 
     document.querySelector(".letter-window").classList.add("final");
 
     buttons.style.display = "none";
 
     finalText.style.display = "block";
+});
 });
 

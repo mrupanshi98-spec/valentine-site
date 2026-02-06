@@ -9,7 +9,7 @@ body {
 }
 
 /* Envelope Screen */
-#envelope-container {
+#envelope-screen {
     text-align: center;
     cursor: pointer;
 }
@@ -52,7 +52,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(window.png);
+    background-image: url(Images/window.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -137,5 +137,5 @@ p {
     display: inline-block;
     padding: 10px 20px;
     background-color: rgba(255, 240, 240, 0.5);
-    border: radius 12px;
+    border-radius: 12px;
 }
